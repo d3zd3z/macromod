@@ -1,0 +1,13 @@
+[package]
+
+name = "macromod"
+version = "0.0.1"
+authors = ["David Brown <davidb@davidb.org>"]
+
+[lib]
+name = "macros"
+path = "src/lib.rs"
+
+[[bin]]
+name = "mtest"
+path = "src/main.rs"
